@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  background-color: #f5f5dc;
+  height: 1366px;
+}
+
+/* Login */
+
+.sp-login-container {
+  padding: 44px 30px;
+}
+
+.pc-login-container {
+  padding: 44px 180px;
+}
+
+.sp-login-container h2{
+  margin-bottom: 45px;
+  color: #6c757d;
+}
+
+.pc-login-container h2{
+  margin-bottom: 45px;
+  color: #6c757d;
+}
+
+.sp-login-container .login-email {
+  color: #6c757d;
+}
+
+.pc-login-container .login-email {
+  color: #6c757d;
+  font-size: 21px;
+}
+
+.pc-login-container form {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-container .form-group {
+  margin-bottom: 46px;
+}
+
+.login-to-register {
+  margin-top: 37px;
+  color: #6c757d;
+}
+
+.login-to-register:hover{
+  cursor: pointer;
+  color: #5a6268;
+}
+
+/* Main */
+/* FormContainerのデザイン　*/
+.new-task-container {
+  padding: 28px 0px 42px 0px;
+}
+
+/* MainContainerのデザイン */
+.sp-main-container {
+  padding:42px 0 38px 0;
+}
+
+.pc-main-container {
+  padding-bottom: 38px;
+}
+
+.pc-main-container h4 {
+  margin: 0;
+  font-size: 24px;
+  border-bottom: solid;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #6c757d;
+}
+
+.nav-area {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: #f5f5dc;
+}
+
+.nav-area .nav-item {
+  cursor: pointer;
+  color: #6c757d;
+}
+
+/* 各カードのリストをスクロール可能に */
+
+.itemList {
+  overflow: auto;
+  height: 1077px;
+}
+
+.itemList p {
+  color: #f5f5dc;
+}
+
+/* 各カードの色を指定 */
+
+div.eme-imp-card.card { 
+  background-color: #f08080;
+  border-color: #f5f5dc; 
+}
+
+div.eme-card.card { 
+  background-color: #f4a460;
+  border-color: #f5f5dc;
+}
+
+div.imp-card.card { 
+  background-color: #66cdaa;
+  border-color: #f5f5dc; 
+}
+
+/* priorityを選択するプルダウンボタンのデザイン */
+
+div.priority-menu.show {
+  padding: 0px;
+  height: 26px;
+  display: inline-block;
+  min-width: 100%;
+}
+
+.priority-menu .dropdown-item {
+  height: 100%;
+  width: 30px;
+  padding: 0px; 
+  cursor: pointer;
+  border: solid 0.5px #f5f5dc;
+}
+
+.priority-menu .eme-imp-button {
+  background-color: red;
+}
+
+.priority-menu .eme-imp-button:hover {
+  background-color: #f08080;
+}
+
+.priority-menu .eme-button {
+  background-color: #ffa500;
+}
+
+.priority-menu .eme-button:hover {
+  background-color: #f0e68c;
+}
+
+.priority-menu .imp-button {
+  background-color: green;
+}
+
+.priority-menu .imp-button:hover {
+  background-color: #66cdaa;
+}
+
+.pc-nav-container {
+  padding-top: 16px;
+}
+
+.pc-nav-container span.logout-button {
+  color: #6c757d !important;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.pc-nav-container span.account-edit-button {
+  color: #6c757d !important;
+  cursor: pointer;
+  margin-right: 10px;
+}
